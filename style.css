@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+*{
+   font-family: "Playwrite AU SA", serif;
+padding: 0;
+margin: 0;
+
+}
+body{
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(10, 10, 10));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: gold;
+    text-decoration: none;
+}
+.container{
+    background-image: 
+    linear-gradient(to left,rgba(43, 38, 5, 0.514) 60%,rgba(0, 0, 0, 0.496)),
+    url(porsha.png)
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 640px;
+    background-position: center;
+}
+.container:hover{
+    background-image: 
+    linear-gradient(to left,rgba(43, 38, 5, 0.514) 60%,transparent),
+    url(porsha.png)
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: gold;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color:white;
+}
+.content{
+    color: white;
+    width: 40%;
+    margin-top: 50px;
+    
+    float: right;
+    
+}
+.content h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.content p{
+    letter-spacing: 2px;
+    color: goldenrod;
+    font-weight: bold;
+}
